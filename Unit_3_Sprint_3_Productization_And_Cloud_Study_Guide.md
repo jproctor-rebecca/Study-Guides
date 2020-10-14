@@ -6,19 +6,32 @@ Have fun studying!
 
 # Questions of Understanding
 1. Define the following and give an example of an appropriate task for each:
-	- Front-end:
-	- Back-end:
-	- Database:
+	- Front-end:  Front end developers help build what users interact with and see.
+	- Back-end:  Back end developers are focused on data, modeling, and the back end of a website. 
+	- Full-stack:  A full stack developer does some or all of the above.
+	- Database:  A database is an organized collection of data, generally stored and accessed electronically from a computer system. The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data.
 
 2. What is a decorator?
+In object-oriented programming, the decorator pattern is a design pattern that allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.
 
 3. What is a route?
+In internetworking, the process of moving a packet of data from source to destination. Routing is usually performed by a dedicated device called a router. Routing is a key feature of the Internet because it enables messages to pass from one computer to another and eventually reach the target machine.
 
 4. Why do we want to separate our code into separate files when writing an application? Why not just one big file?
+It is basic organization. Imagine a library would glue every new book to a stack of the old ones.   If every file serves only one topic, you know quickly where to look. You also immediately know what does not belong to the topic, without having to read through commentary.  Multiple files allow for non-linear organisation. The building blocks of a program rarely follow a single, linear chain of interactions.  Loosely coupled components are easily represented by individual files, and folders allow to add external structure.  Distinct files are easier to reorganise.  As complexity grows, components move to sub packages, and sometimes you just need to clean up. A file can simply be moved as a whole.  Copy/Pasting to migrate code is more work, especially if you have tacked on all the structuring manually.  Individual files are easier to track.  Code is ideally in a version control system.  Knowing that backend/datastore/fileio.cpp changed is already quite informative, and lets you know whether the change is relevant for you.  If everything is a single file, you get line 254–378 in app.cpp changed, and have to look up the context yourself.
+
+Basically, a single file is easy to write. Multiple files are much easy to read, maintain and manage. For software development, the later is much more important.  Even if you are working alone, future-you does not know everything that past-you has done.
 
 5. What is an API? Give an example of an API that is not Twitter's.
+API stands for Application Programming Interface.  An API is a software intermediary that allows two applications to talk to each other.  In other words, an API is the messenger that delivers your request to the provider that you're requesting it from and then delivers the response back to you.
+Most APIs require an API key. ...
+The easiest way to start using an API is by finding an HTTP client online, like REST-Client, Postman, or Paw. ...
+The next best way to pull data from an API is by building a URL from existing API documentation.
 
 6. What does it mean to pickle a model? Why might this be useful?
+Pickle is the standard way of serializing objects in Python.  You can use the pickle operation to serialize your machine learning algorithms and save the serialized format to a file.  Later you can load this file to deserialize your model and use it to make new predictions.
+Python pickle module is used for serializing and de-serializing a Python object structure.  Any object in Python can be pickled so that it can be saved on disk.  What pickle does is that it “serializes” the object first before writing it to file.  Pickling is a way to convert a python object (list, dict, etc.). 
+This is important because it means you can save a Python object like a class instance to a file, send it to another environment or computer, and deserialize it back into a Python object to be interacted with again.
 
 # Basics of Flask
 
