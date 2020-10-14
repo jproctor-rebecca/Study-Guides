@@ -40,14 +40,19 @@ Write a Flask application that displays "Hello World!" to the local host (usuall
 
 ## Questions of Understanding
 1. Flask is described as a "microframework" for developing web applications. What is a "microframework"?
+A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs.  A microframework is a term used to refer to minimalistic web application frameworks.  It lacks most of the functionality which is common to expect in a full-fledged web application framework, such as: Accounts, authentication, authorization, roles. Database abstraction via an object-relational mapping.
 
 2. What is another web development framework in Python?
+A Web framework is a collection of packages or modules which allow developers to write Web applications (Web Applications) or services without having to handle such low-level details as protocols, sockets or process/thread management.  Django, a free and open-source Python framework, enables developers to develop complex code and apps quickly.  Django framework assists in developing quality web applications.  It is among the best python frameworks and is used for the quick development of APIs and web applications.
 
 3. In this line of code: `APP = Flask(__name__)` What does `__name__` do?
+__name__ is just a convenient way to get the import name of the place the app is defined. Flask uses the import name to know where to look up resources, templates, static files, instance folder, etc. app instead of mypackage.
 
 4. What line of your code tells when and where "Hello World!" should be displayed?
 
+
 5. What do we need to type into the terminal to run our flask application?
+FLASK_APP=<directoryname> flask run
 
 # API's
 
@@ -112,6 +117,7 @@ Write a Flask web application using `SQLAlchemy` with the following:
 
 ## Questions of Understanding
 1. What is an HTML template?
+A website template is a pre-built website composed of HTML pages that include integrated images, text content and support files for font styles and Javascripts.  Web templates and website templates are the same thing.  An HTML web template may be built using HTML or XHTML and will include CSS and Javascript code.
 
    
 
