@@ -130,7 +130,8 @@ It is not necessary, but you can try putting your application on Heroku.
 
 ## Questions of Understanding
 1. What is a platform-as-a-service?
-
+Platform as a service (PaaS) or application platform as a service (aPaaS) or platform-based service is a category of cloud computing services that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.
    
 
 2. Why do we need to use a service like Heroku? Why not just host the application on our local machine?
+They have the ability to automate processes and provide all the building blocks for companies in need of a full-service package.  Perhaps one of the most important reasons for looking at PaaS is the potential business advantages they can provide.  PaaS allow companies to be very agile and responsive to issues or demand.
